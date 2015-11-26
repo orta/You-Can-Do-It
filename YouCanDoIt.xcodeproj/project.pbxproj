@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604BFA451C07A28F009B4474 /* NSwindow+Fading.m in Sources */ = {isa = PBXBuildFile; fileRef = 604BFA441C07A28F009B4474 /* NSwindow+Fading.m */; };
+		604C26DD1C0793D000E16D84 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604C26DC1C0793D000E16D84 /* AppKit.framework */; };
+		604C26DF1C0793D000E16D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604C26DE1C0793D000E16D84 /* Foundation.framework */; };
+		604C26E31C0793D000E16D84 /* YouCanDoIt.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 604C26E21C0793D000E16D84 /* YouCanDoIt.xcscheme */; };
+		604C26E61C0793D000E16D84 /* YouCanDoIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 604C26E51C0793D000E16D84 /* YouCanDoIt.m */; };
+		604C26F61C079A3400E16D84 /* doit8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26EE1C079A3400E16D84 /* doit8.mp4 */; };
+		604C26F71C079A3400E16D84 /* doit7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26EF1C079A3400E16D84 /* doit7.mp4 */; };
+		604C26F81C079A3400E16D84 /* doit6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26F01C079A3400E16D84 /* doit6.mp4 */; };
+		604C26F91C079A3400E16D84 /* doit5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26F11C079A3400E16D84 /* doit5.mp4 */; };
+		604C26FA1C079A3400E16D84 /* doit4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26F21C079A3400E16D84 /* doit4.mp4 */; };
+		604C26FB1C079A3400E16D84 /* doit3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26F31C079A3400E16D84 /* doit3.mp4 */; };
+		604C26FC1C079A3400E16D84 /* doit2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26F41C079A3400E16D84 /* doit2.mp4 */; };
+		604C26FD1C079A3400E16D84 /* doit1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 604C26F51C079A3400E16D84 /* doit1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		604BFA431C07A28F009B4474 /* NSwindow+Fading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSwindow+Fading.h"; sourceTree = "<group>"; };
+		604BFA441C07A28F009B4474 /* NSwindow+Fading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSwindow+Fading.m"; sourceTree = "<group>"; };
+		604C26D91C0793D000E16D84 /* YouCanDoIt.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouCanDoIt.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		604C26DC1C0793D000E16D84 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		604C26DE1C0793D000E16D84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		604C26E21C0793D000E16D84 /* YouCanDoIt.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = YouCanDoIt.xcscheme; path = YouCanDoIt.xcodeproj/xcshareddata/xcschemes/YouCanDoIt.xcscheme; sourceTree = SOURCE_ROOT; };
+		604C26E41C0793D000E16D84 /* YouCanDoIt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouCanDoIt.h; sourceTree = "<group>"; };
+		604C26E51C0793D000E16D84 /* YouCanDoIt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouCanDoIt.m; sourceTree = "<group>"; };
+		604C26E71C0793D000E16D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604C26EE1C079A3400E16D84 /* doit8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit8.mp4; sourceTree = "<group>"; };
+		604C26EF1C079A3400E16D84 /* doit7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit7.mp4; sourceTree = "<group>"; };
+		604C26F01C079A3400E16D84 /* doit6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit6.mp4; sourceTree = "<group>"; };
+		604C26F11C079A3400E16D84 /* doit5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit5.mp4; sourceTree = "<group>"; };
+		604C26F21C079A3400E16D84 /* doit4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit4.mp4; sourceTree = "<group>"; };
+		604C26F31C079A3400E16D84 /* doit3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit3.mp4; sourceTree = "<group>"; };
+		604C26F41C079A3400E16D84 /* doit2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit2.mp4; sourceTree = "<group>"; };
+		604C26F51C079A3400E16D84 /* doit1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doit1.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604C26D71C0793D000E16D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604C26DD1C0793D000E16D84 /* AppKit.framework in Frameworks */,
+				604C26DF1C0793D000E16D84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604C26D01C0793D000E16D84 = {
+			isa = PBXGroup;
+			children = (
+				604C26E01C0793D000E16D84 /* YouCanDoIt */,
+				604C26DB1C0793D000E16D84 /* Frameworks */,
+				604C26DA1C0793D000E16D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		604C26DA1C0793D000E16D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604C26D91C0793D000E16D84 /* YouCanDoIt.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604C26DB1C0793D000E16D84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				604C26DC1C0793D000E16D84 /* AppKit.framework */,
+				604C26DE1C0793D000E16D84 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		604C26E01C0793D000E16D84 /* YouCanDoIt */ = {
+			isa = PBXGroup;
+			children = (
+				604C26ED1C079A1E00E16D84 /* I'm doing it, alright? */,
+				604C26E41C0793D000E16D84 /* YouCanDoIt.h */,
+				604C26E51C0793D000E16D84 /* YouCanDoIt.m */,
+				604C26E71C0793D000E16D84 /* Info.plist */,
+				604C26E11C0793D000E16D84 /* Supporting Files */,
+				604BFA431C07A28F009B4474 /* NSwindow+Fading.h */,
+				604BFA441C07A28F009B4474 /* NSwindow+Fading.m */,
+			);
+			path = YouCanDoIt;
+			sourceTree = "<group>";
+		};
+		604C26E11C0793D000E16D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				604C26E21C0793D000E16D84 /* YouCanDoIt.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		604C26ED1C079A1E00E16D84 /* I'm doing it, alright? */ = {
+			isa = PBXGroup;
+			children = (
+				604C26EE1C079A3400E16D84 /* doit8.mp4 */,
+				604C26EF1C079A3400E16D84 /* doit7.mp4 */,
+				604C26F01C079A3400E16D84 /* doit6.mp4 */,
+				604C26F11C079A3400E16D84 /* doit5.mp4 */,
+				604C26F21C079A3400E16D84 /* doit4.mp4 */,
+				604C26F31C079A3400E16D84 /* doit3.mp4 */,
+				604C26F41C079A3400E16D84 /* doit2.mp4 */,
+				604C26F51C079A3400E16D84 /* doit1.mp4 */,
+			);
+			name = "I'm doing it, alright?";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604C26D81C0793D000E16D84 /* YouCanDoIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604C26EA1C0793D000E16D84 /* Build configuration list for PBXNativeTarget "YouCanDoIt" */;
+			buildPhases = (
+				604C26D51C0793D000E16D84 /* Sources */,
+				604C26D61C0793D000E16D84 /* Resources */,
+				604C26D71C0793D000E16D84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouCanDoIt;
+			productName = YouCanDoIt;
+			productReference = 604C26D91C0793D000E16D84 /* YouCanDoIt.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604C26D11C0793D000E16D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Orta;
+				TargetAttributes = {
+					604C26D81C0793D000E16D84 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 604C26D41C0793D000E16D84 /* Build configuration list for PBXProject "YouCanDoIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 604C26D01C0793D000E16D84;
+			productRefGroup = 604C26DA1C0793D000E16D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604C26D81C0793D000E16D84 /* YouCanDoIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604C26D61C0793D000E16D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604C26FB1C079A3400E16D84 /* doit3.mp4 in Resources */,
+				604C26F61C079A3400E16D84 /* doit8.mp4 in Resources */,
+				604C26FC1C079A3400E16D84 /* doit2.mp4 in Resources */,
+				604C26F71C079A3400E16D84 /* doit7.mp4 in Resources */,
+				604C26F81C079A3400E16D84 /* doit6.mp4 in Resources */,
+				604C26E31C0793D000E16D84 /* YouCanDoIt.xcscheme in Resources */,
+				604C26FA1C079A3400E16D84 /* doit4.mp4 in Resources */,
+				604C26FD1C079A3400E16D84 /* doit1.mp4 in Resources */,
+				604C26F91C079A3400E16D84 /* doit5.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604C26D51C0793D000E16D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604C26E61C0793D000E16D84 /* YouCanDoIt.m in Sources */,
+				604BFA451C07A28F009B4474 /* NSwindow+Fading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		604C26E81C0793D000E16D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		604C26E91C0793D000E16D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		604C26EB1C0793D000E16D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = YouCanDoIt/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.orta.YouCanDoIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		604C26EC1C0793D000E16D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = YouCanDoIt/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.orta.YouCanDoIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604C26D41C0793D000E16D84 /* Build configuration list for PBXProject "YouCanDoIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604C26E81C0793D000E16D84 /* Debug */,
+				604C26E91C0793D000E16D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604C26EA1C0793D000E16D84 /* Build configuration list for PBXNativeTarget "YouCanDoIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604C26EB1C0793D000E16D84 /* Debug */,
+				604C26EC1C0793D000E16D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604C26D11C0793D000E16D84 /* Project object */;
+}
