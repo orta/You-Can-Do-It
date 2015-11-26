@@ -5,4 +5,8 @@ This is an Xcode plugin which every three build failures in a row will show you 
 
 ![](web/doit.png)
 
-Remember, me and Shia think you can do it. So get on with it.
+Remember; me and Shia think you can do it. So get on with it.
+
+### Get it?
+
+Go grab Alcatraz, and install `You Can Do It`.
